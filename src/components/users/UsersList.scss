@@ -1,0 +1,20 @@
+#users-list {
+  border: none;
+
+  .user-item {
+    span {
+      color: var(--text-color);
+    }
+
+    .user-content {
+      h4 {
+        color: var(--text-color);
+        font-weight: normal;
+      }
+
+      span {
+        color: var(--pale-color);
+      }
+    }
+  }
+}
